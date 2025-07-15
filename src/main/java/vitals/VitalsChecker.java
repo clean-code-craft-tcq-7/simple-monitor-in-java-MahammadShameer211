@@ -11,6 +11,7 @@ public abstract class VitalsChecker {
         Thread.sleep(1000);
         System.out.print("\r *");
         Thread.sleep(1000);
+        
       }
       return false;
     } else if (pulseRate < 60 || pulseRate > 100) {
